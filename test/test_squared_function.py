@@ -5,7 +5,7 @@ from teaching_project.squared_function import squared
 def test_squared_where_input_is_2():
     # Arrange
     number_to_be_squared = 2
-    expected_output = 5
+    expected_output = 4
 
     # Act
     actual_output = squared(number_to_be_squared)
