@@ -1,23 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: $Title$
-  labels:
-    app: $Title$
+  name: nginx
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
-      app: $Title$
+      app: nginx
   template:
     metadata:
-      name: $Title$
       labels:
-        app: $Title$
+        app: nginx
     spec:
       containers:
-        - name: $Title$
-          image: $Image$
-          imagePullPolicy: IfNotPresent
-      restartPolicy: Always
-      $END$
+      - image: nginx
+        name: nginx
