@@ -3,6 +3,12 @@ kind: Service
 metadata:
   name: nginx-service
   namespace: default
+fghudisjghbds
+
+dfgsdgdsgsde
+
+
+gdsgsdgs
 spec:
   selector:
     app: nginx
