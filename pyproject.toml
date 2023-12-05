@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teaching-project-git"
+version = "0.1.0"
+description = "A teaching project"
+authors = ["Mark Sheehan <mark.sheehan.uk@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.3"
+coverage = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
